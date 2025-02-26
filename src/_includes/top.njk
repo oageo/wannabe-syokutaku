@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja" prefix="og: https://ogp.me/ns#">
+    <head>
+        <meta charset="UTF-8" />
+		<meta name="description" content="ボタンを押すと顔をなくせるかもしれない" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="みんなの食卓でありたい。" />
+		<meta name="viewport" content="width=device-width" />
+        <meta name="generator" content="{{ eleventy.generator }}" />
+		<title>みんなの食卓でありたい。</title>
+        <link rel="stylesheet" href="/assets/bulma.min.css">
+        <link rel="manifest" href="manifest.json">
+    </head>
+    <body>
+        <main class="hero is-fullheight">
+            {% include "./components/wannabe-syokutaku.njk" %}
+            {% include "./components/mtybtn.njk" %}
+        </main>
+        {% include "./components/footer.njk" %}
+    </body>
+</html>
+
+<style>
+    .hero {
+        background-color: #ea571e;
+    }
+    .title {
+        color: #014096;
+    }
+</style>

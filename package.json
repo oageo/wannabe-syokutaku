@@ -1,0 +1,14 @@
+{
+	"name": "wannabe-syokutaku",
+	"scripts": {
+		"build": "npx @11ty/eleventy",
+		"start": "npx @11ty/eleventy --serve",
+		"watch": "npx @11ty/eleventy --watch"
+  	},
+	"devDependencies": {
+		"@11ty/eleventy": "^3.0.0"
+	},
+	"dependencies": {
+		"bulma": "^1.0.2"
+	}
+}
